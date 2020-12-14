@@ -2,6 +2,7 @@ let btn = document.getElementById("btn");
 let count = 0;
 let res = document.getElementById("result");
 btn.addEventListener("click", function () {
+  res.style.display = "block";
   let input = document.getElementById("input").value;
   let result = 5;
   //   let result = Math.floor(Math.random() * 10 + 1);
