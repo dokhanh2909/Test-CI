@@ -17,7 +17,7 @@ btn.addEventListener("click", function () {
       "Chúc mừng! Bạn đã đoán đúng số và trúng thưởng một phần quà trị giá 1 tỷ đồng!";
   else if (count > 1) {
     // alert("Bạn đã hết lượt đoán");
-    res.innerHTML = "Bạn đã hết lượt đoán";
+    res.innerHTML = `Bạn đã hết lượt đoán. Số đúng là ${result}`;
   } else {
     count = count + 1;
     // alert(
