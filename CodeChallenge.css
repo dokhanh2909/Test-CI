@@ -63,6 +63,7 @@ label {
   cursor: pointer;
 }
 #result {
+  display: none;
   padding: 10px;
   text-align: center;
   margin-top: 2%;
